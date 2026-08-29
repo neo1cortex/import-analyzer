@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Import Analyzer",
+  "version": "0.1.0",
+  "description": "Analiza localmente anuncios de Mobile.de para preparar una importacion a Espana.",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; base-uri 'self'"
+  },
+  "permissions": ["storage", "sidePanel"],
+  "host_permissions": ["https://suchen.mobile.de/*", "https://www.mobile.de/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "Abrir Import Analyzer", "default_popup": "popup.html" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "content_scripts": [
+    {
+      "matches": ["https://suchen.mobile.de/*", "https://www.mobile.de/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

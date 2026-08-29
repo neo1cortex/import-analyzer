@@ -1,0 +1,378 @@
+[
+  {
+    "id_motor": "bmw_n20b20a_184",
+    "codigo_motor": "N20B20A",
+    "familia": "N20",
+    "marca": "BMW",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["BMW"],
+      "modelos_compatibles": ["320", "420", "520", "320i", "420i", "520i", "X1", "X3"],
+      "generaciones_chasis": ["F30", "F31", "F32", "F36", "F10", "F11", "E84", "F25"],
+      "cilindrada_cc": [1997],
+      "potencia_kw": [135],
+      "potencia_cv": [184],
+      "combustible": ["gasoline", "petrol"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2011,
+      "ano_matriculacion_fin": 2015
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Media-Baja",
+      "puntuacion_riesgo": "Alto",
+      "veredicto_compra": "Motor crítico en distribución. Exigir comprobación o cambio previo del kit de cadena.",
+      "fallos_comunes": [
+        {
+          "componente": "Guías de cadena de distribución",
+          "gravedad": "Crítica",
+          "km_promedio_aparicion": "90.000 - 140.000 km",
+          "sintomas": "Silbido agudo metálico en aceleración, trozos de plástico acumulados en la bomba de aceite.",
+          "coste_estimado_reparacion_eur": 1800
+        },
+        {
+          "componente": "Bomba de aceite y piñón de arrastre",
+          "gravedad": "Crítica",
+          "km_promedio_aparicion": "100.000 km",
+          "sintomas": "Testigo de presión de aceite encendido, riesgo inminente de gripado.",
+          "coste_estimado_reparacion_eur": 2200
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "bmw_b48b20a_184",
+    "codigo_motor": "B48B20A",
+    "familia": "B48",
+    "marca": "BMW",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["BMW"],
+      "modelos_compatibles": ["320", "420", "520", "320i", "420i", "520i", "G30", "G20"],
+      "generaciones_chasis": ["F30", "F31", "F32", "F36", "F10", "F11", "G30", "G20"],
+      "cilindrada_cc": [1998],
+      "potencia_kw": [135],
+      "potencia_cv": [184],
+      "combustible": ["gasoline", "petrol"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2015,
+      "ano_matriculacion_fin": 2021
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Alta",
+      "puntuacion_riesgo": "Bajo",
+      "veredicto_compra": "Bloque muy fiable y maduro. Excelente alternativa al N20.",
+      "fallos_comunes": [
+        {
+          "componente": "Manguito de purga del refrigerante y carcasa del termostato",
+          "gravedad": "Media",
+          "km_promedio_aparicion": "80.000 - 120.000 km",
+          "sintomas": "Fuga progresiva de refrigerante por degradación de componentes plásticos.",
+          "coste_estimado_reparacion_eur": 400
+        },
+        {
+          "componente": "Válvula PCV",
+          "gravedad": "Baja",
+          "km_promedio_aparicion": "100.000 km",
+          "sintomas": "Ralentí inestable o ligero consumo de aceite por rotura de membrana.",
+          "coste_estimado_reparacion_eur": 150
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "bmw_n47d20o1_184",
+    "codigo_motor": "N47D20O1",
+    "familia": "N47",
+    "marca": "BMW",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["BMW"],
+      "modelos_compatibles": ["120", "320", "520", "120d", "320d", "520d", "X1", "X3"],
+      "generaciones_chasis": ["E90", "F30", "F10", "E84", "F25"],
+      "cilindrada_cc": [1995],
+      "potencia_kw": [135],
+      "potencia_cv": [184],
+      "combustible": ["diesel"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2010,
+      "ano_matriculacion_fin": 2015
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Media-Baja",
+      "puntuacion_riesgo": "Alto",
+      "veredicto_compra": "Revisar ruido de cadena de distribución en la parte posterior del bloque.",
+      "fallos_comunes": [
+        {
+          "componente": "Cadena de distribución superior e inferior",
+          "gravedad": "Crítica",
+          "km_promedio_aparicion": "120.000 - 180.000 km",
+          "sintomas": "Sonido de roce metálico o seseo constante entre 1.500 y 2.000 rpm.",
+          "coste_estimado_reparacion_eur": 2000
+        },
+        {
+          "componente": "Polea dumper del cigüeñal",
+          "gravedad": "Media",
+          "km_promedio_aparicion": "150.000 km",
+          "sintomas": "Vibraciones al ralentí, olor a goma quemada o chirrido de correas.",
+          "coste_estimado_reparacion_eur": 450
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "bmw_b47d20_190",
+    "codigo_motor": "B47D20O0",
+    "familia": "B47",
+    "marca": "BMW",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["BMW"],
+      "modelos_compatibles": ["320", "420", "520", "320d", "420d", "520d", "X3"],
+      "generaciones_chasis": ["F30", "F31", "F32", "F10", "F11", "G30", "G20"],
+      "cilindrada_cc": [1995],
+      "potencia_kw": [140],
+      "potencia_cv": [190],
+      "combustible": ["diesel"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2014,
+      "ano_matriculacion_fin": 2021
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Alta",
+      "puntuacion_riesgo": "Bajo",
+      "veredicto_compra": "Sustituto directo y muy corregido del N47. Opción sólida para diésel.",
+      "fallos_comunes": [
+        {
+          "componente": "Válvula EGR y enfriador de gases",
+          "gravedad": "Alta",
+          "km_promedio_aparicion": "70.000 - 110.000 km",
+          "sintomas": "Pérdida de refrigerante, tirones en baja carga o campaña oficial de llamada a revisión.",
+          "coste_estimado_reparacion_eur": 750
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "bmw_b58b30_326",
+    "codigo_motor": "B58B30A",
+    "familia": "B58",
+    "marca": "BMW",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["BMW"],
+      "modelos_compatibles": ["340", "440", "540", "340i", "440i", "540i", "M140i", "M240i"],
+      "generaciones_chasis": ["F30", "F32", "G30", "F20", "F22"],
+      "cilindrada_cc": [2998],
+      "potencia_kw": [240, 250, 275],
+      "potencia_cv": [326, 340, 374],
+      "combustible": ["gasoline", "petrol"],
+      "cilindros": 6,
+      "ano_matriculacion_inicio": 2015,
+      "ano_matriculacion_fin": 2023
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Muy Alta",
+      "puntuacion_riesgo": "Muy Bajo",
+      "veredicto_compra": "Uno de los mejores motores modernos de 6 cilindros del mercado.",
+      "fallos_comunes": [
+        {
+          "componente": "Válvula PCV / Membrana integrada en tapa de balancines",
+          "gravedad": "Baja",
+          "km_promedio_aparicion": "90.000 km",
+          "sintomas": "Humo blanco intermitente tras ralentí prolongado y silbido alto.",
+          "coste_estimado_reparacion_eur": 200
+        },
+        {
+          "componente": "Bomba de agua secundaria",
+          "gravedad": "Baja",
+          "km_promedio_aparicion": "100.000 km",
+          "sintomas": "Consumo mínimo de anticongelante por depósito auxiliar.",
+          "coste_estimado_reparacion_eur": 350
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "vag_cbza_105",
+    "codigo_motor": "CBZA / CBZB",
+    "familia": "1.2 TSI EA111",
+    "marca": "Volkswagen",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["Volkswagen", "SEAT", "Skoda", "Audi"],
+      "modelos_compatibles": ["Polo", "Ibiza", "Fabia", "A1", "Golf"],
+      "generaciones_chasis": ["6R", "6J", "5J", "8X", "Mk6"],
+      "cilindrada_cc": [1197],
+      "potencia_kw": [63, 77],
+      "potencia_cv": [85, 105],
+      "combustible": ["gasoline", "petrol"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2009,
+      "ano_matriculacion_fin": 2014
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Baja",
+      "puntuacion_riesgo": "Alto",
+      "veredicto_compra": "Verificar historial de cambio de cadena de distribución a kit modificado.",
+      "fallos_comunes": [
+        {
+          "componente": "Cadena de distribución y tensor hidráulico",
+          "gravedad": "Crítica",
+          "km_promedio_aparicion": "60.000 - 90.000 km",
+          "sintomas": "Ruido fuerte de metálico durante arranque en frío (primeros 3 segundos).",
+          "coste_estimado_reparacion_eur": 950
+        },
+        {
+          "componente": "Actuador eléctrico de la turbina (Wastegate)",
+          "gravedad": "Media",
+          "km_promedio_aparicion": "80.000 km",
+          "sintomas": "Aviso EPC en cuadro, pérdida de soplado del turbo.",
+          "coste_estimado_reparacion_eur": 300
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "vag_czda_150",
+    "codigo_motor": "CZDA / CZEA",
+    "familia": "1.4 TSI EA211",
+    "marca": "Volkswagen",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["Volkswagen", "SEAT", "Skoda", "Audi"],
+      "modelos_compatibles": ["Polo", "Golf", "Leon", "A3", "Passat"],
+      "generaciones_chasis": ["6C", "Mk7", "5F", "8V", "B8"],
+      "cilindrada_cc": [1395],
+      "potencia_kw": [110],
+      "potencia_cv": [150],
+      "combustible": ["gasoline", "petrol"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2014,
+      "ano_matriculacion_fin": 2019
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Muy Alta",
+      "puntuacion_riesgo": "Bajo",
+      "veredicto_compra": "Motor de correa de distribución muy equilibrado y fiable.",
+      "fallos_comunes": [
+        {
+          "componente": "Mecanismo del variador de fase de distribución",
+          "gravedad": "Media",
+          "km_promedio_aparicion": "120.000 km",
+          "sintomas": "Fuga puntual de aceite por el retén o leve ruido al accionar sistema ACT (desconexión de cilindros).",
+          "coste_estimado_reparacion_eur": 500
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "vag_ea888_gen2_211",
+    "codigo_motor": "CCZB / CDNC",
+    "familia": "2.0 TSI EA888 Gen 2",
+    "marca": "Volkswagen",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["Volkswagen", "Audi", "SEAT", "Skoda"],
+      "modelos_compatibles": ["Golf", "A4", "A5", "Leon", "Scirocco"],
+      "generaciones_chasis": ["Mk6", "B8", "8T", "1P"],
+      "cilindrada_cc": [1984],
+      "potencia_kw": [155, 132],
+      "potencia_cv": [211, 180],
+      "combustible": ["gasoline", "petrol"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2008,
+      "ano_matriculacion_fin": 2013
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Baja",
+      "puntuacion_riesgo": "Muy Alto",
+      "veredicto_compra": "Descartar unidades sin kit de pistones corregidos o prueba de consumo de aceite.",
+      "fallos_comunes": [
+        {
+          "componente": "Segmentos rascadores de aceite de pistón",
+          "gravedad": "Crítica",
+          "km_promedio_aparicion": "80.000 - 130.000 km",
+          "sintomas": "Consumo abusivo de aceite (>1L por 1.000 km) y engrase de bujías.",
+          "coste_estimado_reparacion_eur": 3500
+        },
+        {
+          "componente": "Tensor de la cadena de distribución",
+          "gravedad": "Crítica",
+          "km_promedio_aparicion": "100.000 km",
+          "sintomas": "Fallo sin aviso previo, provocando salto de dientes de distribución.",
+          "coste_estimado_reparacion_eur": 2500
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "vag_caha_170",
+    "codigo_motor": "CAHA / CBBB",
+    "familia": "2.0 TDI EA189 (Common Rail)",
+    "marca": "Volkswagen",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["Volkswagen", "Audi", "SEAT", "Skoda"],
+      "modelos_compatibles": ["Golf", "A4", "Passat", "Exeo", "A3"],
+      "generaciones_chasis": ["Mk6", "B8", "B6", "3R", "8P"],
+      "cilindrada_cc": [1968],
+      "potencia_kw": [125],
+      "potencia_cv": [170],
+      "combustible": ["diesel"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2008,
+      "ano_matriculacion_fin": 2014
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Alta",
+      "puntuacion_riesgo": "Bajo",
+      "veredicto_compra": "Bloque robusto. Comprobar actualización de software por campaña de emisiones.",
+      "fallos_comunes": [
+        {
+          "componente": "Bomba de alta presión de combustible Bosch CP4",
+          "gravedad": "Alta",
+          "km_promedio_aparicion": "160.000 km",
+          "sintomas": "Virutas metálicas en el circuito de diésel tras repostajes de mala calidad.",
+          "coste_estimado_reparacion_eur": 2200
+        },
+        {
+          "componente": "Filtro de partículas DPF / Válvula EGR",
+          "gravedad": "Media",
+          "km_promedio_aparicion": "140.000 km",
+          "sintomas": "Modo regeneración constante por uso puramente urbano.",
+          "coste_estimado_reparacion_eur": 600
+        }
+      ]
+    }
+  },
+  {
+    "id_motor": "mb_om651_170",
+    "codigo_motor": "OM651 DE22LA",
+    "familia": "OM651",
+    "marca": "Mercedes-Benz",
+    "criterios_coincidencia_mobile_de": {
+      "marca_mobile": ["Mercedes-Benz"],
+      "modelos_compatibles": ["C 220", "E 220", "CLA 220", "GLK 220", "C 200"],
+      "generaciones_chasis": ["W204", "W205", "W212", "C117", "X204"],
+      "cilindrada_cc": [2143],
+      "potencia_kw": [125, 100],
+      "potencia_cv": [170, 136],
+      "combustible": ["diesel"],
+      "cilindros": 4,
+      "ano_matriculacion_inicio": 2009,
+      "ano_matriculacion_fin": 2018
+    },
+    "diagnostico_fiabilidad": {
+      "categoria_fiabilidad": "Alta",
+      "puntuacion_riesgo": "Bajo",
+      "veredicto_compra": "Motor de larguísima vida útil en unidades fabricadas a partir de 2012.",
+      "fallos_comunes": [
+        {
+          "componente": "Brida de refrigerante inferior",
+          "gravedad": "Media",
+          "km_promedio_aparicion": "120.000 km",
+          "sintomas": "Fuga progresiva de líquido por debajo del soporte del filtro de diésel.",
+          "coste_estimado_reparacion_eur": 280
+        },
+        {
+          "componente": "Inyectores Piezoeléctricos Delphi (solo unidades 2008-2011)",
+          "gravedad": "Alta",
+          "km_promedio_aparicion": "60.000 km",
+          "sintomas": "Tirones, tirón en fallo de cilindro. La mayoría corregidos en campaña oficial por inyectores electromagnéticos.",
+          "coste_estimado_reparacion_eur": 1200
+        }
+      ]
+    }
+  }
+]
